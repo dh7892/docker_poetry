@@ -1,2 +1,9 @@
+[build-system]
+required = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+[tool.poetry]
+name = "awesome"
+version = "0.0.1"
+authors = "Dave"
 [tool.poetry.dependencies]
-pytest 
+pytest = "4.3.1"
